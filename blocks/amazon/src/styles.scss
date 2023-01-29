@@ -1,0 +1,232 @@
+@media screen and (min-width: 800px) {
+    /* Reglas CSS que se aplicarán solo a pantallas de 800px o más */
+.wp-block-amz-amazon{
+    display: flex;
+    justify-content: space-between;
+}
+.container-AMZ{
+    display: grid;
+    width: 200px;
+    height: 350px;
+    top: 10%;
+    left: 5%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: 1rem outset black;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+ .container2-AMZ{
+    display: grid;
+    width: 200px;
+    height: 350px;
+    top: 10%;
+    left: 25%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: 1rem outset black;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+ .container3-AMZ{
+    display: grid;
+    width: 200px;
+    height: 350px;
+    top: 10%;
+    left: 45%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: 1rem outset black;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+.product-AMZ{
+    margin-top: 3.5vh;
+    object-fit: contain;
+    width: 150px;
+    height: 140px !important;
+    background-color: transparent;
+    border-style: 1rem outset;
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 3px 0.2px #2f3640;
+    
+}
+.title-AMZ{
+    align-self: center;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    margin: 12px 0px 0px 0px;
+    width: 125px;
+
+}
+.text-AMZ{
+    align-self: center;
+    font-size: 16px !important;
+}
+
+.product-AMZ{
+    align-content: center;
+    justify-content: center;
+}
+
+.button-AMZ{
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0.4rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    
+    cursor: pointer;
+    border: transparent;
+    font-size: 10px;
+}
+
+.button-AMZ:hover {
+    background-color: #ffb700;
+}
+
+.button-AMZ:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.text-AMZ{
+    text-justify: auto;
+}
+
+a{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+    text-decoration: none;
+}
+}
+
+@media screen and (max-width: 800px) {
+    /* Reglas CSS que se aplicarán solo a pantallas de 800px o más */
+
+
+
+.container-AMZ{
+    display: grid;
+    width: 45vh;
+    height: 80vh;
+    top: 10%;
+    left: 5%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: 1rem outset black;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+ .container2-AMZ{
+    display: grid;
+    width: 45vh;
+    height: 80vh;
+    top: 10%;
+    left: 25%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: 1rem outset black;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+ .container3-AMZ{
+    display: grid;
+    width: 45vh;
+    height: 80vh;
+    top: 10%;
+    left: 45%;
+    border-radius: 1rem;
+    background-color: #f5f6fa;
+    border-style: 1rem outset black;
+    /*box-shadow: 5px 5px 3px #f5f6fa;*/
+    border: 0.2rem solid #2f3640;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+ }
+
+.product-AMZ{
+    margin-top: 3.5vh;
+    object-fit: contain;
+    width: 30vh;
+    height: 30vh;
+    background-color: transparent;
+    border-style: 1rem outset;
+    border-radius: 1.5rem;
+    box-shadow: 0px 4px 3px 0.2px #2f3640;
+}
+
+.text-AMZ{
+    align-self: center;
+}
+
+.product-AMZ{
+    align-content: center;
+    justify-content: center;
+}
+
+.button-AMZ{
+    align-self: center;
+    width: 35vh;
+    height: 7vh;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0.4rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: transparent;
+    font-size: medium;
+}
+
+.button-AMZ:hover {
+    background-color: #ffb700;
+}
+
+.button-AMZ:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.text-AMZ{
+    text-justify: auto;
+}
+
+a {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+    text-decoration: none;
+}
+}
