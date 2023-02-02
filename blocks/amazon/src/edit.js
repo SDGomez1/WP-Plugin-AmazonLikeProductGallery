@@ -118,7 +118,7 @@ const Edit = (props) => {
                     <h3 className="title-AMZ" >{title1}</h3>
 
                     <h3 className="text-AMZ">{precio1}</h3>
-                    <a href={link1} target="_blank">
+                    <a href={link1} target="_blank" className="AMZ-buttonlink">
                         <button className="button-AMZ" target="_blank" rel="nofollow">
                             Compra en Amazon
                         </button>
@@ -142,7 +142,7 @@ const Edit = (props) => {
                     )}
                     <h3 className="title-AMZ" >{title2}</h3>
                     <h3 className="text-AMZ">{precio2}</h3>
-                    <a href={link2} target="_blank">
+                    <a href={link2} target="_blank" className="AMZ-buttonlink">
                         <button className="button-AMZ" target="_blank" rel="nofollow">
                             Compra en Amazon
                         </button>
@@ -165,7 +165,7 @@ const Edit = (props) => {
                     )}
                     <h3 className="title-AMZ" >{title3}</h3>
                     <h3 className="text-AMZ">{precio3}</h3>
-                    <a href={link3} target="_blank">
+                    <a href={link3} target="_blank" className="AMZ-buttonlink">
                         <button className="button-AMZ" target="_blank" rel="nofollow">
                             Compra en Amazon
                         </button>
