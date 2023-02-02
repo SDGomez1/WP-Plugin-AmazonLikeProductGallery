@@ -3,7 +3,7 @@
  * Plugin Name:       Amazon Product Gallery
  * Description:       This plugin creates a gallery view for products
  * Plugin URI:        https://github.com/SDGomez1/WP-Plugin-AmazonLikeProductGallery
- * Version:           1.0
+ * Version:           1.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Sergio Gomez & Miguel Clavijo
